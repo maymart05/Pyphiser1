@@ -169,7 +169,7 @@ for module in modules:
 from requests import get, Session
 from bs4 import BeautifulSoup
 
-websites_url = "https://github.com/KasRoudra/PyPhisher/releases/latest/download/websites.zip" # "https://github.com/KasRoudra/files/raw/main/websites.zip"
+websites_url = f"https://github.com/KasRoudra/PyPhisher/releases/download/v{version}/websites.zip" # "https://github.com/KasRoudra/files/raw/main/websites.zip"
 
 templates_file = "files/templates.json"
 email_file = "files/email.json"
